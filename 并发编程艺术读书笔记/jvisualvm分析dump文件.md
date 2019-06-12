@@ -22,16 +22,16 @@ jvisualvm可以监控本地、远程的java进程，实时查看进程的cpu、�
 
 如下图：
 
-![1559805725679](C:\Users\mayuewei\AppData\Roaming\Typora\typora-user-images\1559805725679.png)
+![1559805725679](./image/1559805725679.png)
 
 能够检测到死锁和性能监控
 
-![1559805751550](C:\Users\mayuewei\AppData\Roaming\Typora\typora-user-images\1559805751550.png)
+![1559805751550](./image/1559805751550.png)
 
 检测线程
 
-![1559805822800](C:\Users\mayuewei\AppData\Roaming\Typora\typora-user-images\1559805822800.png)
+![1559805822800](./image/1559805822800.png)
 
 通过分析Dump文件就可以发现程序哪里有死锁
 
-![1559805921003](C:\Users\mayuewei\AppData\Roaming\Typora\typora-user-images\1559805921003.png)
+![1559805921003](./image/1559805921003.png)

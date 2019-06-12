@@ -66,7 +66,7 @@ ReentranLock实现依赖框架  AbstractQueuedSynchronizer 简称AQS，在java.u
 
 
 
-![1560159513045](C:\Users\mayuewei\AppData\Roaming\Typora\typora-user-images\1560159513045.png)
+![1560159513045](./image/1560159513045.png)
 
 ## 内存模型总结
 
