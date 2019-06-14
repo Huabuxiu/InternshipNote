@@ -12,7 +12,7 @@
 
 
 
-![线程池](.\image\线程池.png)
+![线程池](./image/线程池.png)
 
 线程池的工作流程是这样：
 
@@ -109,7 +109,7 @@ public void execute(Runnable command) {
 
 ThreadPoolExecutor的execute方法执行逻辑请见注释。下图为ThreadPoolExecutor的execute方法的执行示意图：
 
-![execute](C:\Users\mayuewei\Documents\学习文档\并发编程艺术读书笔记\image\execute.png)
+![execute](./image/execute.png)
 
 execute方法执行逻辑有这样几种情况：
 
