@@ -2,4 +2,4 @@
 
 思维导图
 
-![0.jpg](.\image\0.jpg.png)
+![0.jpg](.\image\0.png)
