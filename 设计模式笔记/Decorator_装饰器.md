@@ -134,3 +134,16 @@ public class ShapeDecoratorMaterial extends ShapeDecorator {
 
 
 
+## 设计原则
+类应该对扩展开放，对修改关闭：也就是添加新功能时不需要修改代码。饮料可以动态添加新的配料，而不需要去修改饮料的代码。
+
+不可能把所有的类设计成都满足这一原则，应当把该原则应用于最有可能发生改变的地方。
+
+
+## JDK
+
+- java.io.BufferedInputStream(InputStream)
+- java.io.DataInputStream(InputStream)
+- java.io.BufferedOutputStream(OutputStream)
+- java.util.zip.ZipOutputStream(OutputStream)
+- java.util.Collections   List|Map|Set|SortedSet|SortedMap
