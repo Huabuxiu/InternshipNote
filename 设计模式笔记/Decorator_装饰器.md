@@ -132,6 +132,26 @@ public class ShapeDecoratorMaterial extends ShapeDecorator {
 
 ```
 
+### 测试代码
+
+```java
+   @Test
+    public void draw() {
+        Shape Circle = new Circle();
+        Shape Rectangle = new Rectangle();
+
+        //装饰器来组合的用
+        ShapeDecoratorColor RedCircle = new ShapeDecoratorColor(Circle);
+        ShapeDecoratorColor RedRectangle = new ShapeDecoratorColor(Rectangle);
+
+        ShapeDecoratorMaterial SmoothCircle = new ShapeDecoratorMaterial(Circle);
+
+        RedCircle.draw();
+        RedRectangle.draw();
+        SmoothCircle.draw();
+    }
+```
+
 
 
 ## 设计原则
